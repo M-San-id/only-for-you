@@ -9,11 +9,8 @@ function Home() {
         <div className="home-container">
           <div className="home-content">
             <h1>Happy Sweet Seventeen</h1>
-            <p>Selamat ulang tahun yang ke-17 🥳🎉</p>
-            <p>
-              Semoga setiap hari menjadi istimewa dan indah seferti senyuman mu
-              💖💖
-            </p>
+            <p>Happi Birthday 🥳🎉</p>
+            <p>May every day be as special and beautiful as your smile 💖💖</p>
             <p style={{ color: "gray" }}>~eakk~</p>
             <LoveReact />
           </div>

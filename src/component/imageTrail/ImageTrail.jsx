@@ -7,11 +7,11 @@ function ImageTrail() {
   const throttleDelay = 100;
 
   const imageUrls = [
-    "/image/1.png",
-    "/image/2.png",
-    "/image/3.png",
-    "/image/4.png",
-    "/image/5.jpeg",
+    "https://placehold.co/250x250/orange/white",
+    "https://placehold.co/250x250/blue/white",
+    "https://placehold.co/250x250/green/white",
+    "https://placehold.co/250x250/red/white",
+    "https://placehold.co/250x250/yellow/white",
   ];
 
   useEffect(() => {

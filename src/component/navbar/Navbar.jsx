@@ -8,7 +8,7 @@ function Navbar() {
       <div className="nav-container">
         <div>
           <Link to="/">
-            <button className="btn">Beranda</button>
+            <button className="btn">Home</button>
           </Link>
         </div>
         <div>
@@ -18,12 +18,12 @@ function Navbar() {
         </div>
         <div>
           <Link to="/quotes">
-            <button className="btn">Kartu Ucapan</button>
+            <button className="btn">Quotes</button>
           </Link>
         </div>
         <div>
           <Link to="/message">
-            <button className="btn">Pesan</button>
+            <button className="btn">Message</button>
           </Link>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./quotes.css";
 
-const fullText = `Selamat ulang tahun ke-17! 🥳🥳 Selamat datang di "Sweet Seventeen" yang katanya manis. Yah, semoga aja benaran manis. Menurut saya, sekarang adalah 'golden hour'-nya kehidupan, di mana ada banyak hal yang bisa dicoba tanpa takut gagal. Ada yang bilang, "no risk, no Ferrari", anggep aja bahwa di balik risiko yang besar, terdapat keberuntungan yang sama besarnya. Anggap semua tantangan sebagai sebuah peluang buat belajar banyak hal baru dan jadi lebih tangguh untuk terus mengejar cita-cita. Di umur ke-17, yang merupakan sebuah transisi dari masa remaja menuju kedewasaan, semoga kamu menjadi pribadi yang lebih baik (walaupun sekarang sudah baik banget 🙄🙄), berani nyobain banyak hal (meski sekarang dah bisa banyak hal 👌), bijaksana dalam setiap keputusan yang diambil, serta menjadi pribadi yang lebih terbuka kepada diri sendiri maupun orang lain. Saya juga berharap semua hari-hari yang kamu jalani dipenuhi kebahagiaan, kemudahan, dan kesuksesan.`;
+const fullText = `Happy 17th birthday! 🥳🥳 Welcome to "Sweet Seventeen" which is said to be sweet. Well, hopefully it's really sweet. In my opinion, now is the 'golden hour' of life, where there are many things you can try without fear of failure. They say, "no risk, no Ferrari", just assume that behind great risk, there is equally great fortune. Consider all challenges as opportunities to learn many new things and become stronger to continue pursuing your dreams. At the age of 17, which is a transition from adolescence to adulthood, I hope you become a better person (although you are already very good 🙄🙄), dare to try many things (even though you can already do many things 👌), be wise in every decision you make, and become a more open person to yourself and others. I also hope that all the days you live are filled with happiness, ease, and success.`;
 
 function Quotes() {
   const [displayedText, setDisplayedText] = useState("");
@@ -20,7 +20,7 @@ function Quotes() {
     <>
       <div className="quote-container">
         <div className="board">
-          <h1>Ini Rill ini hati saya hehe</h1>
+          <h1>This is real, this is my heart hehe</h1>
           <div className="quote">
             <p>{displayedText}</p>
           </div>
